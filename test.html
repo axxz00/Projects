@@ -1,10 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <title>Home</title>
+
 </head>
 <body>
+<nav class="navbar navbar-expand-md  navbar-light bg-dark sticky-top">
+    <div class="container-fluid">
+        <a href="home.html">
+            <img alt="" class="navbar-brand" src="" >
+        </a>
+
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+        </div>
+        <li class ="nav-item active">
+            <a class="nav-link" href="Home.html">Home</a>
+        </li>
+        <li class ="nav-item ">
+            <a class="nav-link" href="Games.html">Games</a>
+        </li>
+        <li class ="nav-item ">
+            <a class="nav-link" href="About.html">About</a>
+        </li>
+        <li class ="nav-item ">
+            <a class="nav-link" href="Others.html">Others</a>
+        </li>
+        <button class="btn btn-primary"  data-bs-target="#modalForm" data-bs-toggle="modal" type="submit">Login
+        </button>
+    </div>
+
+</nav>
+
+<!---Slider obrazkov--->
+<div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+<div class="carousel-indicators">
+    <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0"
+            data-bs-target="#carouselExampleIndicators" type="button"></button>
+    <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators"
+            type="button"></button>
+    <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators"
+            type="button"></button>
+</div>
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <img alt="..." class="d-block w-100" src="1.png">
+        <div class="carousel-caption">
+            <h2 class="display">Welcome to</h2>
+            <h1>League of Legends</h1>
+            <button type="button" class="btn-outline-light btn lg">VIEW</button>
+            <button type="button" class="btn-primary btn-lg">Get Started</button>
+    </div>
+    </div>
+    <div class="carousel-item">
+        <img alt="..." class="d-block w-100" src="2.png">
+    </div>
+    <div class="carousel-item">
+        <img alt="..." class="d-block w-100" src="3.png">
+    </div>
+</div>
+<button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators"
+        type="button">
+    <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators"
+        type="button">
+    <span aria-hidden="true" class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+</div>
+
+<!--Text-->
+
+<div class="container">
+    <div class="container">
+        <div class="row">
+            <p>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo libero neque. Suspendisse nec
+                varius orci, at scelerisque enim. Vestibulum egestas turpis suscipit consectetur tincidunt. Duis vehicula
+                nibh elit, rhoncus varius augue posuere sed. Morbi pharetra iaculis felis. Phasellus laoreet arcu id est
+                dignissim gravida. Nunc varius dignissim cursus. Nunc non mattis mauris. Mauris luctus, libero vel
+                ullamcorper interdum, nunc mauris egestas urna, a dictum sapien felis in est. Sed congue leo urna, et
+                vulputate ipsum feugiat sed. Aenean velit magna, tempus et efficitur eu, aliquet ac augue.
+            </p>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <p>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare viverra lacus non euismod.
+                Suspendisse ac eleifend turpis. Nunc volutpat viverra ante. Quisque ullamcorper justo eget est facilisis
+                efficitur. Suspendisse potenti. Sed blandit euismod arcu in feugiat. Nam malesuada elit vel eros
+                tincidunt mattis. Donec sollicitudin lorem eu quam fringilla hendrerit. Maecenas dapibus gravida libero
+                non consequat. In hac habitasse platea dictumst. Nunc sodales ultrices nibh a dictum.
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <p>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in mollis quam. Sed pellentesque leo quis
+                sapien venenatis blandit. Praesent eu eleifend eros. Vivamus egestas sit amet nibh id elementum. In eget
+                erat luctus, vulputate velit posuere, aliquam nulla. Ut imperdiet dolor in diam aliquet dapibus.
+                Morbi interdum ante eget erat finibus, a cursus enim scelerisque. Mauris luctus mollis consequat. Fusce
+                sodales, libero ut ullamcorper mattis, diam nisl aliquam quam, pharetra iaculis mauris turpis et lacus.
+                Nunc posuere, lectus vitae pharetra viverra, dui tortor mollis ante, in efficitur est lorem vitae risus.
+                Ut vestibulum ante eu nibh auctor, quis porttitor nisl tempor.
+            </p>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
